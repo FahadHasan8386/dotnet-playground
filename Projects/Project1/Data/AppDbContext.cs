@@ -11,6 +11,7 @@ namespace Project1.Data
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Jokes> Jokes { get; set; }
 
         
     }
